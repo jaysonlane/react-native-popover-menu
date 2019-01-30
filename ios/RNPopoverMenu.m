@@ -105,7 +105,7 @@ RCT_EXPORT_METHOD(Show:(nonnull NSNumber *)view props:(nonnull NSDictionary *)pr
     configuration.menuIconMargin = [iconMargin longValue];
     configuration.selectedCellBackgroundColor = selectedRowBackgroundColr;
     configuration.allowRoundedArrow = [roundedArrow boolValue];
-    configuration.textFont = [UIFont fontNamed: @"AvenirNext-Regular"];
+    configuration.textFont = [UIFont fontWithName: @"AvenirNext-Regular" size: 16];
     configuration.backgroundColor = tintColr;
     configuration.borderColor = borderColr;
     configuration.borderWidth = [borderWidth longValue];
